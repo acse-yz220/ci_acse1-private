@@ -17,7 +17,7 @@ def factorial(n):
 
 def sin(x):
     sum = 0
-    for i in range(12):
+    for i in range(20):
         term = (-1)**i * (x**(2*i+1))/factorial(2*i+1)
         sum = term + sum
     return sum
